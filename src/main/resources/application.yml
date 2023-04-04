@@ -1,0 +1,17 @@
+camel:
+  component:
+    enabled: true
+    smpp:
+      configuration:
+        host: localhost
+        password: password
+        port: 2775
+        sourceAddrTon: 5
+        sourceAddrNpi: 1
+        destAddrTon: 1
+        destAddrNpi: 1
+
+
+  springboot:
+    name: smpp-app
+    main-run-controller: true
